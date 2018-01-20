@@ -1,4 +1,4 @@
-# Instalacion Postgres
+# Instalación Postgres
 
 Este documento contiene instrucciones para instalar, configurar y ejecutar el contenedor para Postgres.
 
@@ -48,5 +48,5 @@ Fuente: https://docs.docker.com/engine/userguide/networking/default_network/dock
 
 # Probar conexion
 
-Se puede probar si funciona con `telnet IP 5432` y hay que dejar abierto el puerto hacia el exterior o la red local donde este la aplicacion de Rails.
+Se puede probar si funciona con `telnet <IP o HOST> 5432` y hay que dejar abierto el puerto hacia el exterior o la red local donde este la aplicacion de Rails.
 
