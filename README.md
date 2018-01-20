@@ -35,7 +35,7 @@ grant all privileges on database dockerdb to dockeruser;
 
 # En caso que haya conflicto de puertos
 
-En caso que el puerto 5432 (default de Postgres) este ocupado en la maquina real donde se ejecuta el container, se puede mapear los puertos de manera distinta usando algo como:
+En caso que el puerto 5432 (default de Postgres) este ocupado en la maquina real donde se ejecuta el container, se puede mapear los puertos de manera distinta usando algo como (comando de ejemplo):
 
 
 ```bash
